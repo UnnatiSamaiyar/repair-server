@@ -58,7 +58,7 @@ app.post('/submit-form', (req, res) => {
     // Email options
     const mailOptions = {
         from: process.env.EMAIL, // Sender address
-        to: `${process.env.RECEIVER_EMAIL}, acrepairingservicegoa@gmail.com`, // Multiple recipients
+        to: `${process.env.RECEIVER_EMAIL}, acrepairingservicegoa@gmail.com, repairingwalaagoa@gmail.com`, // Multiple recipients
         subject: `New Contact Form Submission from ${name}`,
         html: htmlContent, // Use HTML format instead of plain text
     };
